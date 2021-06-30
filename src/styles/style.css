@@ -1,0 +1,33 @@
+#app {
+  margin: 50px;
+}
+.header {
+  font-size: 20px;
+  height: 40px;
+}
+.board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 156px;
+  height: 156px;
+  border-collapse: collapse;
+}
+.board div {
+  border: 1px solid lightgray;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.restart {
+  background: transparent;
+  border: 0;
+  color: tomato;
+  font-size: inherit;
+  font-weight: bold;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
